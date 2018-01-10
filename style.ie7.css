@@ -1,0 +1,167 @@
+/* Created by Artisteer v4.3.0.60745 */
+
+.bd-header, #bd-header-bg, .bd-layout-cell, .bd-layout-wrapper, .bd-footer, .bd-nav, #bd-hmenu-bg, .bd-sheet,
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+@media screen and (max-width:768px){
+/* CSS Style*/
+}
+@media screen and (max-width:320px){
+/* CSS Style*/
+}    
+@media screen and (max-width:240px){
+/* CSS Style*/
+}
+@media screen and (min-width:240px){
+/* CSS Style*/
+}
+@media screen and (min-width:320px){
+/* CSS Style*/
+}
+@media screen and (min-width:768px){
+/* CSS Style*/
+}  
+
+.bd-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.bd-header
+{
+   z-index: 1;
+   background-image: [headerimage];
+   background-position: [headerposition];
+}
+
+#bd-header-bg 
+{
+   display: none;
+}
+
+.bd-hmenu>li, .bd-hmenu>li>a
+{
+   display: inline !important;
+   zoom: 1;
+   float: none !important;
+   vertical-align: top;
+}
+ul.bd-hmenu, ul.bd-hmenu ul {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+#bd-hmenu-bg 
+{
+   display: none;
+}
+
+ul.bd-hmenu>li:first-child {
+   padding-right:11px;
+}
+ul.bd-hmenu>li{
+   zoom:expression(runtimeStyle.zoom=1,insertBefore(document.createElement('span'),firstChild).className='bd-hmenu-separator');
+}
+ul.bd-hmenu>li>span.bd-hmenu-separator
+{
+   position:absolute;
+   display: block;
+   top:0;
+   left:  -11px;
+   width: 11px;
+   height: 34px;
+   background: url('images/menuseparator.png') center center no-repeat;
+}
+ul.bd-hmenu>li:first-child>span.bd-hmenu-separator
+{
+   display:none;
+}
+
+ul.bd-hmenu ul, .desktop-nav ul.bd-hmenu>li.ext:hover>a{
+   background-color: #C0E2A2 !important;
+}
+
+.bd-content-layout, .bd-content-layout-row, .bd-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.bd-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.bd-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.bd-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.bd-search>input[type="text"] 
+{
+   margin :0;
+}
+
+form.bd-search
+{
+   zoom: 1;
+}
+.bd-postheadericons span{
+   zoom: 1;
+}
+.bd-postcontent {
+   height: 1%;
+}
+
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.bd-sidebar1
+{
+   background: none !important;
+   border: none !important;
+   zoom:expression(runtimeStyle.zoom=1, parentNode.parentNode.insertBefore(document.createElement('div'),parentNode.parentNode.firstChild).className='bd-sidebar1-bg' + (className.indexOf('bd-sidebar1-fix') == -1 ? '' : ' bd-sidebar1-bg-fix' ));
+}
+
+.bd-sidebar1-bg 
+{
+   border-right:1px dotted #C0D89C;
+   position:absolute;
+   z-index:-2;
+   direction: ltr;
+   left:  0;
+   bottom:0;
+   top:0;
+   width: 200px;
+   overflow:hidden;
+   display:block;
+}
+
+.bd-content 
+{
+   width: auto;
+   float:none;
+}
+
